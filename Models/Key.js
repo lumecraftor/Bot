@@ -1,8 +1,7 @@
-// models/User.js
+// models/Key.js
 const mongoose = require('mongoose');
-const UserSchema = new mongoose.Schema({
-    discordID: { type: String, required: true },
+const KeySchema = new mongoose.Schema({
     key: { type: String, required: true },
-    usageCount: { type: Number, default: 0 },
+    isUsed: { type: Boolean, default: false },
 });
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('Key', KeySchema);
