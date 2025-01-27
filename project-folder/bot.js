@@ -87,5 +87,5 @@ app.post('/admin/keys', async (req, res) => {
 });
 
 // Start Bot and API
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.MTMzMzM2NzcyNTIxNjc2Mzk1Ng.G8VDpo.fiem3MaJJvifEaQCpWuXHjgG4VSgou42w8sjTs);
 app.listen(process.env.PORT, () => console.log(`API running on port ${process.env.PORT}`));
